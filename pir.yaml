@@ -1,0 +1,31 @@
+esphome:
+  name: pir
+  platform: ESP32
+  board: nodemcu-32s
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "milksteak"
+  password: "noseclams"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Pir Fallback Hotspot"
+    password: "bUEgkhZ2e9CU"
+
+captive_portal:
+
+binary_sensor:
+  - platform: gpio
+    pin: 2
+    name: "PIR Sensor"
+    device_class: motion
