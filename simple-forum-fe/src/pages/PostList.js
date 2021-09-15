@@ -5,10 +5,10 @@ import './pages.css';
 export default function PostList() {
   return (
     <div className="post-list">
-    <Header />
-    <Post />
-    <Post />
-    <Post />
+      <Header />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 }

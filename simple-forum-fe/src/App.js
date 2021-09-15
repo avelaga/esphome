@@ -16,16 +16,13 @@ const ErrorPage = () => {
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
-        <Switch>
-          <Route path="/">
-            <PostList />
-          </Route>
-          <Route path="/post:id">
-            <PostDetail />
-          </Route>
-        </Switch>
-      </BrowserRouter>
+      <BrowserRouter>
+          <Switch>
+            <Route exact path="/" component={PostList}/>
+            <Route exact path="/posts/:id" component={PostDetail}/>
+            <Route component={ErrorPage} />
+          </Switch>
+        </BrowserRouter>
       </div>
   );
 }

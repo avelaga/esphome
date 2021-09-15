@@ -4,12 +4,12 @@ import "./components.css"
 export default function Post() {
 
   const [username, setUsername] = useState("sunburstbox");
-  const [postBody, setPostBody] = useState("what the fuck did i just see");
+  const [postTitle, setPostTitle] = useState("what the fuck did i just see");
 
   return(
     <div className="post">
+      <div className="post-title">{postTitle}</div>
       <div className="username">{username}</div>
-      <div className="post-body">{postBody}</div>
     </div>  
   );
 }

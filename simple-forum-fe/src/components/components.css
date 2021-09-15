@@ -3,12 +3,19 @@
   border-color: rgb(73, 73, 73);
   border-style: solid;
   border-width: 1px;
-  margin: 4rem;
+  margin: 2rem;
   margin-right: 15rem;
   margin-left: 15rem;
-  padding: 2rem;
+  padding: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 
   text-align: left;
+}
+
+.post-title {
+  font-family: 'Avenir-Black'; 
+  font-size: 40px;
 }
 
 .comment {
@@ -16,7 +23,9 @@
 }
 
 .username {
-
+  font-family: 'Avenir-Roman'; 
+  color: rgb(180, 180, 180);
+  font-weight: 100;
 }
 
 .post-body {
