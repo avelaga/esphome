@@ -13,19 +13,11 @@
   text-align: left;
 }
 
-.post-title {
-  font-family: 'Avenir-Black'; 
-  font-size: 40px;
-}
-
 .comment {
-
-}
-
-.username {
-  font-family: 'Avenir-Roman'; 
-  color: rgb(180, 180, 180);
-  font-weight: 100;
+  text-align: left;
+  margin-right: 20.5rem;
+  margin-left: 20.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .post-body {
@@ -33,7 +25,8 @@
 }
 
 .comment-body {
-
+  font-family: 'Avenir-Book'; 
+  font-size: 25px;
 }
 
 .header {

@@ -7,3 +7,14 @@
 .error {
   
 }
+
+.username {
+  font-family: 'Avenir-Roman'; 
+  color: rgb(180, 180, 180);
+  font-weight: 100;
+}
+
+.post-title {
+  font-family: 'Avenir-Black'; 
+  font-size: 40px;
+}
