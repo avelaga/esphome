@@ -6,9 +6,9 @@ export default function PostList() {
   return (
     <div className="post-list">
       <Header />
-      <Post />
-      <Post />
-      <Post />
+      <a href="/posts/1"><Post /></a>
+      <a href="/posts/2"><Post /></a>
+      <a href="/posts/3"><Post /></a>
     </div>
   );
 }

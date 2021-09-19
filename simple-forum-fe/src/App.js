@@ -1,5 +1,6 @@
 import PostList from "./pages/PostList";
 import PostDetail from "./pages/PostDetail";
+import Login from "./pages/Login";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={PostList}/>
             <Route exact path="/posts/:id" component={PostDetail}/>
+            <Route exact path="/login" component={Login}/>
             <Route component={ErrorPage} />
           </Switch>
         </BrowserRouter>
